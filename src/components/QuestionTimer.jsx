@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 export default function QuestionTimer({ timeout, onTimeout,mode }) {
   const [remainingTime, setRemainingTime] = useState(timeout);
   useEffect(() => {
-    console.log("SETTING TIMEOUT");
+    // console.log("SETTING TIMEOUT");
 
     const timer=setTimeout(onTimeout, timeout);
     return()=>{
