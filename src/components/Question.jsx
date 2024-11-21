@@ -50,7 +50,7 @@ export default function Question(
     }
   return (
     <div id="question">
-        <h2>{index+1} / {QUESTIONS.length}</h2>
+        <h2 className="question-text">{index+1} / {QUESTIONS.length}</h2>
       <QuestionTimer
       key={timer}
         timeout={timer}

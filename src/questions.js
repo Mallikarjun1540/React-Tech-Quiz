@@ -40,15 +40,15 @@ export default [
       ],
     },
     {
-      id: 'q5',
-      text: 'What does the term "React state" imply?',
-      answers: [
-        'An object in a component that holds values and may cause the component to render on change.',
-        'The lifecycle phase a React component is in.',
-        'The overall status of a React application, including all props and components.',
-        'A library for managing global state in React applications.',
-      ],
-    },
+        id: 'q5',
+        text: 'What is the main use of the Redux library?',
+        answers: [
+          'Managing application state.',
+          'Handling database queries.',
+          'Creating and styling UI components.',
+          'Connecting React components to REST APIs.',
+        ],
+      },
     {
       id: 'q6',
       text: 'How do you typically render list content in React apps?',
@@ -69,4 +69,34 @@ export default [
         'Using an if-else statement.',
       ],
     },
+    {
+        id: 'q8',
+        text: 'What is the purpose of Node.js?',
+        answers: [
+          'A runtime environment for executing JavaScript code server-side.',
+          'A library for building REST APIs.',
+          'A framework for creating mobile applications.',
+          'A database management system.',
+        ],
+      },
+      {
+        id: 'q9',
+        text: 'Which of the following is a feature of TypeScript?',
+        answers: [
+          'Static typing for JavaScript.',
+          'Execution of code directly in the browser.',
+          'A tool for version control.',
+          'An open-source database system.',
+        ],
+      },
+      {
+        id: 'q10',
+        text: 'Which command is used to create a new React application?',
+        answers: [
+          'npx create-react-app my-app',
+          'npm install react-app',
+          'react-new my-app',
+          'create-react my-app',
+        ],
+      }
   ];
